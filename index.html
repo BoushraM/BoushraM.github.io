@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Boushra Maaz Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">Boushra<span>Maaz</span></div>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Boushra Maaz</span></h1>
+                <h2>Frontend Developer, Graphic Designer</h2>
+                <p>Whether it's a web page or an image, I always make sure to give user the best designing experience.</p>
+                <div class="hero-btns">
+                    <a href="#portfolio" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who I Am</h3>
+                    <p>Passionate Junior Frontend Developer and experienced Graphic Designer with a strong eye for aesthetics and functionality. I love building responsive, accessible websites that blend clean code with engaging design. Detail-oriented and always learning, I thrive on turning creative ideas into reality—both in code and design. Excited to collaborate on innovative projects and grow as a developer! </p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/boushra-maaz-profile?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/boushra_m3az/profilecard/?igsh=MW96a2g3eG84M3NhZg==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-content">
+                <div class="skills-text">
+                    <h3>My Technical Skills & Experiences</h3>
+                    <p> Skilled in HTML, CSS, JavaScript, Photoshop, and Canva.</p>
+                </div>
+                <div class="skills-progress">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress html-css"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress javascript"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Photoshop</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress photoshop"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Canva</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress canva"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">My <span>Portfolio</span></h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="web">
+                    <img src="web project.PNG" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Web Project</h3>
+                        <p>Portfolio Website</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="design">
+                    <img src="logo.jpg" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>Graphic Design</h3>
+                        <p>Logo</p>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="design">
+                    <img src="logo 2.jpg" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>Graphic Design</h3>
+                        <p>Logo</p>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="design">
+                    <img src="smpost.png" alt="Project 4">
+                    <div class="portfolio-overlay">
+                        <h3>Graphic Design</h3>
+                        <p>Social media post</p>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="portfolio-item" data-category="design">
+                    <img src="smpost2.png" alt="Project 5">
+                    <div class="portfolio-overlay">
+                        <h3>Graphic Design</h3>
+                        <p>Social media post</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work <span>Experience</span></h2>
+            <div class="timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Junior Developer</h3>
+                        <h4>Paper Airplanes Inc.</h4>
+                        <p>Taking a web development course in Paper Airplanes has boosted my knowledge in building websites on my own like this one.</p>
+                    </div>
+                </div>
+                <!-- Experience 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Graphic Designer</h3>
+                        <h4>Freelancing</h4>
+                        <p>I work as a freelancer. I accept deals offered by teams, organizations, small companies, or even by individuals.</p>
+                    </div>
+                </div>
+                <!-- Experience 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2025</div>
+                    <div class="timeline-content">
+                        <h3>Graphic Designer</h3>
+                        <h4>Elite Medical Team</h4>
+                        <p>I volunteered in a medical team as a graphic designer to design medical social media posts, I gained extra experience which was awesome.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>If you're interested in working with me, here is my contacting information.</p>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email:</span>
+                        <p>boushramaaz777@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>Phone:</span>
+                        <p>+963988793429</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Location:</span>
+                        <p>Aleppo, Syria</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/boushra-maaz-profile?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/boushra_m3az/profilecard/?igsh=MW96a2g3eG84M3NhZg==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Boushra<span>Maaz</span></div>
+                <p>I look forward to working with you!</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-copy">
+                    <p>&copy; <span id="year"></span> Boushra Maaz. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="script.js"></script>
+</body>
+</html>
